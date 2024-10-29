@@ -1,6 +1,5 @@
-# Game-Resurrection-Quick-TikTok-Access-During-Gameplay
-# 游戏复活：快速访问抖音
-
+# Skip Respawn Wait: Quick TikTok Access for Gaming
+# 跳过复活等待：游戏中的抖音快速访问
 ## 项目简介
 
 在lol大乱斗或《守望先锋》中，当你的英雄死亡时，等待复活的时间常常让你无所事事。本项目旨在提供一种解决方案，通过简单的侧键操作，快速弹出抖音视频窗口，让你在游戏中刷抖音，轻松跳过等待复活的无聊时光。同时，你可以在赶路或等待复活时，不用低头点击手机播放键，避免错过出门时机。
