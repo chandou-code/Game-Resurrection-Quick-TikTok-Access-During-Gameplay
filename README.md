@@ -1,5 +1,5 @@
 # Game-Resurrection-Quick-TikTok-Access-During-Gameplay
-# 游戏复活助手：快速访问抖音
+# 游戏复活：快速访问抖音
 
 ## 项目简介
 
