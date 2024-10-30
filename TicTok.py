@@ -20,7 +20,7 @@ def start(file_path):
 
 def mini(window_title):
     # 获取当前窗口列表
-    
+
     windows = gw.getWindowsWithTitle(window_title)
     print("当前窗口:", windows)
     # 如果找到了窗口，则最小化
@@ -56,12 +56,7 @@ def on_click(x, y, button, pressed):
 
 
 if __name__ == '__main__':
-    file_path = r"E:\douyin\4.8.1\douyin.exe"
-    window_title = "抖音"
-    # start(file_path)
-    # mini_(window_title, file_path)
 
-    #
     # 开始监听鼠标事件
     with mouse.Listener(on_click=on_click) as listener:
         print("按下鼠标侧键 4 以切换窗口状态（恢复/最小化）...")
