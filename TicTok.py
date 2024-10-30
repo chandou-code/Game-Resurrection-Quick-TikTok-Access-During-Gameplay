@@ -25,23 +25,23 @@ def click_window(window):
 
 def start(file_path):
     process = subprocess.Popen(file_path)
-    time.sleep(0.5)
+
 
     window_title = "抖音"
     windows = gw.getWindowsWithTitle(window_title)
 
     if windows:
         window = windows[0]  # 获取第一个窗口
-        window.activate()  # 激活窗口
-        time.sleep(0.1)  # 等待窗口聚焦
+        # window.activate()  # 激活窗口
 
-        click_window(window)  # 模拟点击窗口
-    else:
-        print("未找到窗口")
+
+        # click_window(window)  # 模拟点击窗口
+    # else:
+    #     print("未找到窗口")
 
         # time.sleep(1)  # 确保窗口获得焦点
-        # window.activate()  # 激活窗口
-        # press_space()  # 发送空格键
+
+
 
 
 
@@ -49,7 +49,8 @@ def start(file_path):
 
 def start_(file_path, window_title):
     start(file_path)
-
+    mini_(window_title, file_path)
+    start(file_path)
 
 def mini(window_title):
     # 获取当前窗口列表
@@ -60,9 +61,10 @@ def mini(window_title):
     # 如果找到了窗口，则最小化
     if windows:
         window = windows[0]  # 假设找到的第一个窗口是我们要操作的窗口
-        window.activate()  # 激活窗口
+        # window.activate()  # 激活窗口
         time.sleep(0.5)
         press_space()  # 发送空格键
+
 
         window.minimize()  # 最小化窗口
         print("程序窗口已最小化")
@@ -81,9 +83,8 @@ def toggle_window():
     file_path = r"E:\douyin\4.8.1\douyin.exe"
     window_title = "抖音"
     if current_state:
-        # start_(file_path, window_title)
-        start(file_path)
-        # mini_(window_title, file_path)
+        start_(file_path, window_title)
+
         # mini_(window_title, file_path)
         # start_(file_path, wind  ow_title)
     else:
