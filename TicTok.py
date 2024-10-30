@@ -22,9 +22,9 @@ def start(file_path):
     if windows:
         window = windows[0]  # 获取第一个窗口
         window.activate()  # 激活窗口
-        time.sleep(0.5)  # 确保窗口获得焦点
+        # time.sleep(0.5)  # 确保窗口获得焦点
 
-        press_space()  # 发送空格键
+        # press_space()  # 发送空格键
     else:
         print("未找到窗口")
 
@@ -61,6 +61,8 @@ def toggle_window():
     window_title = "抖音"
     if current_state:
         start_(file_path,window_title)
+        mini_(window_title, file_path)
+        start_(file_path, window_title)
     else:
 
         mini_(window_title, file_path)
