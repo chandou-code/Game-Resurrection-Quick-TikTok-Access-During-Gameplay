@@ -54,7 +54,7 @@ def start_(file_path, window_title):
 
 def mini(window_title):
     # 获取当前窗口列表
-    # time.sleep(0.1)
+    time.sleep(0.1)
     # print('end')
     windows = gw.getWindowsWithTitle(window_title)
     print("当前窗口:", windows)
