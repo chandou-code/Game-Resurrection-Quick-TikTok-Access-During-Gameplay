@@ -56,6 +56,7 @@ def mini(file_path, window, process_name, window_title):
 def toggle_window():
     global current_state
     file_path = r"E:\douyin\4.8.1\douyin.exe"
+    # file_path = r"C:\Users\10717\douyin" #注释上一段，这一段把10717替换自己的用户名
     import pygetwindow as gw
 
     all_windows = gw.getAllTitles()
